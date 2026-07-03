@@ -35,7 +35,7 @@ body{
 }
 .nav-b a:hover{
     color: rgb(77, 96, 244);
-    border-bottom: 2px solid rgb(226, 132, 132);
+    border-bottom: 2px solid rgb(255, 237, 237);
 }
 .contact-but{
     font-size: 1.7vw;
@@ -44,7 +44,7 @@ body{
     background: linear-gradient(
         270deg,rgb(221, 221, 235) 10%,rgb(11, 22, 212) 100%
     );
-    margin-right: 9rem;
+    margin-right: 9svw;
     letter-spacing: 1px;
     color: white;
     transition: 0.3s ease-in-out;
@@ -53,14 +53,15 @@ body{
     transform: scale(1.2);
 }
 section{
-    min-height: 100vh;
-padding: 10rem 15%;
+    min-height: 10vh;
+padding: 10vw 15%;
+
 }
 #home{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15rem;
+    gap: 15vw;
 }
 .hom-div{
     display: flex;
@@ -71,9 +72,9 @@ padding: 10rem 15%;
 
 }
 .hom-div h1{
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: 100;
-    margin-top: 1.5rem;
+    margin-top: 1.5vw;
     line-height:1 ;
     background: linear-gradient(750deg,rgb(255, 0, 2) 10%,rgb(28, 10, 10) 100%);
     background-clip: text;
@@ -83,7 +84,7 @@ padding: 10rem 15%;
     font-family: fantasy;
 }
 .hom-div h2{
-    margin: 1rem 0;
+    margin: 1vw 0;
     font-size: 3vw;
 
 }
@@ -153,11 +154,11 @@ align-items: center;
 width: 14vw;
 font-size: 12vw;
 height: 14vw;
-padding: 2.2rem;
+padding: 2.2vw;
 background: transparent;
-margin-right: 12rem;
-margin-bottom: 2.5rem;
-margin-top: 2.5rem;
+margin-right: 12vw;
+margin-bottom: 2.5vw;
+margin-top: 2.5vw;
 transition: 0.2s ease-in-out;
 border-color: rgb(150, 150, 183);
 border-width: 1px;
@@ -177,7 +178,7 @@ a{
 
 }
 input{
-    margin: 3rem;
+    margin: 3vw;
     font-size: 3vw;
     border-radius: 7%;
     background: linear-gradient(250deg,rgb(190, 25, 25) 10%,rgb(255, 255, 255) 100%);
@@ -185,9 +186,25 @@ input{
 .sub-m{
     font-size: 3vw;
     padding: 1rem;
-    border-radius: 1rem;
-    margin-top: 1rem;
+    border-radius: 1vw;
+    margin-top: 1vw;
     background-color: green;
     color: wheat;
     border: 2px solid yellow;
+}
+.ab-name{
+    font-size: 7vw;
+    animation: wow 8s 1;
+}
+.ab-name:nth-child(1){animation-delay: 1s;}
+.ab-name:nth-child(2){animation-delay: zs;}
+.ab-name:nth-child(3){animation-delay: 3s;}
+.ab-name:nth-child(4){animation-delay: 4s;}
+.ab-name:nth-child(5){animation-delay: 5s;}
+.ab-name:nth-child(6){animation-delay: 6s;}
+.ab-name:nth-child(7){animation-delay: 7s;}
+.ab-name:nth-child(8){animation-delay: 8s;}
+@keyframes wow {
+from{font-size:0vw;}
+to{font-size:7vw;}
 }
