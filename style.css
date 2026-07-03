@@ -89,8 +89,8 @@ padding: 5vw 15%;
 
 }
 .hom-div p{
-    font-size: 1.2vw;
-    font-weight: 50;
+    font-size: 1.3vw;
+    font-weight: 500;
     line-height: 1.6;
    
 }
@@ -148,13 +148,14 @@ border-radius: 50%;
   
 }
 .skill-is{
+text-align: center;
 display: inline;
 justify-content: center;
 align-items: center;
 width: 14vw;
-font-size: 12vw;
+font-size: 4vw;
 height: 14vw;
-padding: 2.2vw;
+padding: 5vw;
 background: transparent;
 margin-right: 12vw;
 margin-bottom: 2.5vw;
@@ -163,7 +164,7 @@ transition: 0.2s ease-in-out;
 border-color: rgb(150, 150, 183);
 border-width: 1px;
 border-style: solid;
-border-radius: 50%;
+border-radius: 10%;
 }
 .skill-i a:hover{
     color: red;
@@ -209,5 +210,8 @@ from{font-size:0vw;}
 to{font-size:7vw;}
 }
 .mt{
-    margin-top: 10vw;
+    margin-top: 65vw;
+}
+.bm{
+    margin-bottom: 100vw;
 }
