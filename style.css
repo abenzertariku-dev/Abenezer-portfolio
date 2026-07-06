@@ -54,7 +54,7 @@ body{
 }
 section{
     min-height: 10vh;
-padding: 5vw 15%;
+padding: 1vw 15%;
 
 }
 #home{
@@ -214,4 +214,41 @@ to{font-size:7vw;}
 }
 .bm{
     margin-bottom: 100vw;
+}
+@media(max-width:1285px){
+#home{
+    margin-top: 20vw;
+    text-align: center;
+    display: inline;
+    justify-content: center;
+align-items: center;
+    
+}
+.pro-img img{
+    width: 65vw;
+    text-align: center;
+    display: inline;
+    margin-top: 9vw;
+
+}
+.hom-div p{
+    font-size: 2.3vw;
+}
+.hom-div h1{
+    font-size: 10vw;
+}
+.hom-div a{
+    text-align: center;
+    justify-content: center;
+align-items: center;
+}
+.hom-div{
+    margin-top: 10vw;
+    text-align: center;
+    justify-content: center;
+align-items: center;
+}
+.headers-w{
+    font-size: 2px;
+}
 }
