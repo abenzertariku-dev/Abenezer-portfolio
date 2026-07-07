@@ -249,10 +249,10 @@ align-items: center;
 
 }
 .hom-div p{
-    font-size: 2.3vw;
+    font-size: 3vw;
 }
 .hom-div h1{
-    font-size: 10vw;
+    font-size: 15vw;
 }
 .hom-div a{
     text-align: center;
@@ -265,7 +265,13 @@ align-items: center;
     justify-content: center;
 align-items: center;
 }
-.headers-w{
-    font-size: 2px;
+.nav-b a{
+    font-size: 3vw;
+}
+.sun,.moon{
+    font-size: 2.5vw;
+}
+.contact-but{
+    font-size: 3.5vw;
 }
 }
