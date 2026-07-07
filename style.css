@@ -94,6 +94,18 @@ padding: 1vw 15%;
     line-height: 1.6;
    
 }
+.sun{
+    color: white;
+     font-weight: 775;
+     font-size: 2vw;
+     margin-right: 1vw;
+}
+.moon{
+    color: black;
+     font-weight: 775;
+     font-size: 2vw;
+     margin-left: 3vw;
+}
 .pro-img img{
     width: 30vw;
 border-radius: 50%;
@@ -214,6 +226,11 @@ to{font-size:7vw;}
 }
 .bm{
     margin-bottom: 100vw;
+}
+.text{
+    color: white;
+    font-size: 3vw;
+    margin-top: 1vw;
 }
 @media(max-width:1285px){
 #home{

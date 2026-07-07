@@ -21,6 +21,8 @@
       
         <a href="#contact">Contact Me</a>
     </nav>
+    <a class="moon" onclick="darkmod()"> <i class="bx bx-moon" ></i></a>
+    <a class="sun" onclick="lightmod()"> <i class="bx bx-sun" ></i></a>
     <a href="#contact" class="contact-but">
          Contact Me
     </a>
@@ -100,12 +102,16 @@
 <section id="contact" class="mt bm" >
 <form>  <div style="justify-content: center;
 align-items: center;text-align: center;">
-    <input type="text" name="names" placeholder="inter your name"><br>
-    <input type="email"  name="email" id="" placeholder="inter your email"><br>
-    <input type="number" name="phone" placeholder=" inter your pnone number"><br>
+    <input id="name" type="text" name="names" placeholder="inter your name"><br>
+    <input  type="email"  name="email" id="email" placeholder="inter your email"><br>
+    <input type="number" id="pNumber" name="phone" placeholder=" inter your pnone number"><br>
  
-     <button class="sub-m" onclick='alert( " you have sucsssfully submited your data")' >submit</button>
+     <button class="sub-m" onclick='submits()' >submit</button>
    </div>
+   <p id="contForm" class="text"></p>
 </form>
 </section>
-</body></html>
+</body>
+<script src="./script.js">
+    
+</script></html>
